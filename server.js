@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 
- await connectDB();
+connectDB();
 
 /**
  * Health check
